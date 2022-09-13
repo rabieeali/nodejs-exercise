@@ -1,0 +1,19 @@
+{
+  "name": "node-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node ./chapter-five/server",
+    "dev": "nodemon ./chapter-five/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "date-fns": "^2.29.2",
+    "nodemon": "^2.0.19",
+    "uuid": "^9.0.0"
+  }
+}
